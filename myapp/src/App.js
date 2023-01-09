@@ -1,19 +1,13 @@
 import "./App.css";
 import "../src/style.scss";
+import Home from "./Components/Home/index";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
-  return (
-    <Container>
-      <div>
-        <Button>click</Button>
-        <p>
-          asdfghjfdsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffddsxgfdsgfdsgfdsfgdsgfdsfgdsgfdsdffdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdssgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsgfdsg
-        </p>
-      </div>
-    </Container>
-  );
+  return <Home />;
 }
 
 export default App;
